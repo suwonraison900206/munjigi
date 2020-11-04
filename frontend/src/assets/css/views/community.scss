@@ -1,0 +1,27 @@
+@import "../components";
+
+.community {
+  background-image: url("https://user-images.githubusercontent.com/60081201/93408144-c9c05d00-f8ce-11ea-8c1b-5c737727704f.PNG");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85%;
+}
+
+.review-list {
+  margin: 2vh auto;
+  padding: 0;
+  width: 70vw;
+  height: 20 vh;
+
+  .review-list-image {
+    width: 15vw;
+    height: 15vh;
+  }
+
+  .review-list-text {
+    width: 55vw;
+  }
+}

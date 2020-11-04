@@ -1,0 +1,53 @@
+@import "../components";
+.otherpage {
+  background-image: url("https://user-images.githubusercontent.com/60081201/95152409-f974cd80-07c7-11eb-9c61-1e726e109ad1.png");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  .mypage-buttons {
+    text-align: end;
+    color: white;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.other-profile {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 10vw;
+  .grade-image {
+    justify-content: center;
+  }
+  .otherpage-img {
+    width: 20vw;
+  }
+  img {
+    width: 15vw;
+  }
+}
+
+.grade-image {
+  width: 50px;
+}
+
+.grade-text {
+  font-size: 20px;
+  font-family: $main-font;
+  .grade-number {
+    font-size: 10px;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.review-pick {
+  cursor: pointer;
+}

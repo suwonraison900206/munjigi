@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import "../components";
+
+.profile-update {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  padding: $components-margin;
+  background-image: url("https://user-images.githubusercontent.com/60081201/95159429-fc2bee80-07d8-11eb-919a-3be868b71e61.png");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .profile-update-header {
+    margin: 2vh auto;
+  }
+
+  .profile-update-block {
+    h3 {
+      margin: 1vh auto;
+    }
+
+    span {
+      color: grey;
+      margin: 0;
+      padding: 0;
+    }
+
+    .verify-nickname {
+      color: white;
+      padding: 1vh 2vw;
+      background-color: rgb(70, 39, 17);
+      border-radius: 10vw;
+      cursor: pointer;
+    }
+
+    input[type="text"] {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 2vh auto;
+      padding: 1vh 1vw;
+      text-align: center;
+      border: 3px solid rgb(70, 39, 17);
+      width: 40vw;
+      border-radius: 10vw;
+      font-size: 1rem;
+    }
+
+    input[type="text"]:focus {
+      width: 45vw;
+      font-size: 1.1rem;
+      border-color: brown;
+      transition: 0.4s;
+      outline: none;
+    }
+  }
+
+  .submit-buttons {
+    margin: 5vh auto;
+    width: 40vw;
+    input[type="submit"] {
+      margin: 1vh 1vw;
+      border: 0;
+      background: rgb(70, 39, 17);
+      width: 18vw;
+      height: 8vh;
+      border-radius: 10vw;
+      color: white;
+      outline: none;
+      font-size: 1.2rem;
+    }
+
+    input[type="submit"]:hover {
+      background: brown;
+      cursor: pointer;
+    }
+  }
+}

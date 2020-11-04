@@ -1,0 +1,25 @@
+@import "../../components";
+
+.mypage-profile {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 10vw;
+  .grade-image {
+    justify-content: center;
+  }
+  img {
+    width: 15vw;
+  }
+}
+
+.grade-image {
+  width: 50px;
+}
+
+.grade-text {
+  font-size: 20px;
+  font-family: $main-font;
+  .grade-number {
+    font-size: 10px;
+  }
+}

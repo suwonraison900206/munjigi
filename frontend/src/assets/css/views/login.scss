@@ -1,0 +1,67 @@
+@import "../components";
+
+.login {
+  background-image: url("https://user-images.githubusercontent.com/60081201/94752855-5c7cf380-03c7-11eb-8cc9-b10798e6a3c8.png");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85vh;
+  .box {
+    background: #5b1311;
+    width: 45vw;
+    text-align: center;
+    color: white;
+    margin: 5vh auto;
+    padding: 2vh 0;
+    border-radius: 3vw;
+
+    h1 {
+      color: white;
+      margin: 6vh auto;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 1vh auto;
+      text-align: center;
+      border: 3px solid #9d201d;
+      padding: 2vh 3vw;
+      width: 40vw;
+      outline: none;
+      color: white;
+      border-radius: 10vw;
+      transition: 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      width: 43vw;
+      border-color: #de2d29;
+    }
+
+    input[type="submit"] {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 5vh auto;
+      text-align: center;
+      border: 3px solid #9d201d;
+      padding: 2vh 3vw;
+      width: 30vw;
+      color: white;
+      outline: none;
+      border-radius: 10vw;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background: #9a3324;
+    }
+  }
+}

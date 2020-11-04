@@ -1,0 +1,59 @@
+@import "../../components";
+
+.homeIntroduce {
+  height: 35vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://user-images.githubusercontent.com/60081201/93174760-7b457e00-f769-11ea-9fbc-d1f6248c0405.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  h1 {
+    margin: 0;
+    padding: 0 0;
+    height: 5vh;
+    vertical-align: middle;
+  }
+
+  .v-cards-container {
+    margin: 2vh auto 5vh;
+    padding: 0;
+    height: 25vh;
+    text-align: center;
+    max-width: 90%;
+    vertical-align: middle;
+
+    .v-card {
+      display: inline-block;
+      margin: auto 2vw;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      vertical-align: middle;
+      outline: none;
+      border-radius: 50%;
+      transition: opacity 0.4s ease-in-out;
+      
+      .v-image {
+        margin: 0;
+        padding: 0;
+        height: 225px;
+      }
+      
+      .v-image:hover {
+        opacity: 0.8;
+      }
+
+      .card-title {
+        color: white;
+        margin: 1vh 1vw;
+        vertical-align: middle;
+      }
+    }
+
+    .v-card:hover {
+      cursor: pointer;
+    }
+  }
+}

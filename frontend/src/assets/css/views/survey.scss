@@ -1,0 +1,43 @@
+@charset 'utf-8';
+@import "../components";
+
+.survey {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  padding: $components-margin;
+  background-image: url("https://user-images.githubusercontent.com/60081201/95160253-0818b000-07db-11eb-8e1c-cbf98edc324a.PNG");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color-5;
+
+  .survey-box {
+    margin: 20px auto;
+    padding: 0;
+    background-color: $color-2;
+    width: 60vw;
+    border-radius: 10px;
+
+    h1,
+    h2 {
+      margin: 10px;
+      color: $color-4;
+    }
+
+    h3,
+    h4 {
+      margin: 3px;
+      color: $color-4;
+    }
+
+    .button {
+      margin: 0 0 20px;
+      padding: 0;
+      width: 45vw;
+      background-color: $color-1;
+    }
+  }
+}

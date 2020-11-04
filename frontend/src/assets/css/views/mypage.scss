@@ -1,0 +1,19 @@
+@import "../components";
+
+.mypage {
+  background-image: url("https://user-images.githubusercontent.com/60081201/93736936-c30e4e80-fc1c-11ea-8277-4e6628bdfa3c.png");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  .mypage-buttons {
+    text-align: end;
+    color: white;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import "../../components";
+
+.slick-track {
+  margin: 0;
+}
+
+.slick-list {
+  img {
+    height: 100px;
+  }
+}
+
+.heritage-carousel {
+  * {
+    justify-content: center;
+  }
+}

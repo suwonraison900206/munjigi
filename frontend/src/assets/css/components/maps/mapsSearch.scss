@@ -1,0 +1,25 @@
+@charset 'utf-8';
+@import "../../components";
+
+.maps-search {
+  margin: 2vh auto;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+
+  input[type="text"] {
+    background: none;
+    outline: none;
+    color: black;
+  }
+
+  input[type="submit"] {
+    width: 5vw;
+    background-color: rgb(85, 39, 39);
+    text-align: center;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}

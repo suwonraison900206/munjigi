@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import "../../components";
+
+.community-review-item {
+  background-image: url("https://user-images.githubusercontent.com/60081201/95156088-a0f5fe00-07d0-11eb-9796-a625ee51a356.png");
+  // background-attachment: fixed;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85vh;
+  .container {
+    margin-top: 60px;
+  }
+}
+
+.review-user {
+  cursor: pointer;
+}
+
+.review-writer {
+  text-align: end;
+}

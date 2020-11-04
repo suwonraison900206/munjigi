@@ -1,0 +1,15 @@
+@import "../components";
+
+.home {
+  padding: $components-margin;
+  background-image: url("https://user-images.githubusercontent.com/60081201/93165435-010bfe00-f757-11ea-9ace-75dd97feab19.jpg");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 2vh;
+}

@@ -1,0 +1,16 @@
+@import "../components";
+
+.heritage {
+  background-image: url("https://user-images.githubusercontent.com/60081201/93285033-ee550000-f80e-11ea-821b-046b9f7c2d99.png");
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  .searchBar {
+    cursor: pointer;
+    margin: 3vw;
+  }
+}
